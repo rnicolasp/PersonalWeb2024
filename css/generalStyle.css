@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@1000&family=Poppins&display=swap');
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo {
+    font-family: 'Ingrid Darling', cursive;
+    color: #FF33C6;
+    font-size: 100px;
+    margin: 0 auto;
+}
+
+.titulo:hover {
+    color: #FF33C6;
+}
+
+
+body {
+    background-color: black;
+}
+
+nav {
+    text-align: center;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+
+.linea-rosa {
+    width: 100%;
+    height: 5px;
+    background-color: #FF33C6;
+}
+
+.rosita {
+    color: #FF33C6;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.titulo-pag {
+    margin-top: 10%;
+}
+
+.btn-pink {
+    background-color: #FF33C6;
+}
+
+.enlaceLimpio {
+    text-decoration: none;
+    color: inherit;
+}
+
+.enlaceLimpio:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.centrado {
+    display: flex;
+}
+
+.img-personal {
+    width: 20%;
+    height: 20%;
+}
+
+.contenido {
+    margin-top: 25vh;
+}
+
+@media screen and (max-width: 500px) {
+    .titulo {
+        font-size: 50px;
+        margin: 0 auto;
+    }
+
+    .centrado {
+        display: block;
+    }
+
+    .img-personal {
+        width: 80%;
+        margin-bottom: 1vh;
+        margin: 0 auto;
+    }
+
+    .contenido {
+        margin: 0 auto;
+    }
+}
