@@ -16,9 +16,8 @@ body {
   
   .gallery img {
     width: 100%;
-    max-width: 300px;
+    max-width: 600px;
     height: auto;
-    border-radius: 12px;
     object-fit: cover;
     display: block;
   }
